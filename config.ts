@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_ebe7a65ecdcb702a1b1e3b975153fb14',
+    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_62b910c92c30b7090900accd606f06a4',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
