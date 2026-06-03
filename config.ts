@@ -5,8 +5,8 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 const config = {
     // Bot Identity
     botName:     process.env.BOT_NAME      || 'MEGA-MD',
-    botOwner:    process.env.BOT_OWNER     || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER  || '923051391007',
+    botOwner:    process.env.BOT_OWNER     || 'Milton',
+    ownerNumber: process.env.OWNER_NUMBER  || '263715907468',
     author:      process.env.AUTHOR        || 'GlobalTechInfo',
     packname:    process.env.PACKNAME      || 'MEGA-MD',
     description: process.env.DESCRIPTION  || 'High performance multi-device WhatsApp bot',
@@ -16,7 +16,7 @@ const config = {
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
     commandMode: process.env.COMMAND_MODE  || 'public',
-    timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
+    timeZone:    process.env.TIMEZONE      || 'Africa/Harare',
 
     // Links
     channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || '',
+    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_ebe7a65ecdcb702a1b1e3b975153fb14',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
